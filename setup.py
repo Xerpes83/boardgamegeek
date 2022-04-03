@@ -26,7 +26,7 @@ class PyTest(TestCommand):
 tests_require = ["pytest", "pytest-mock"]
 
 setup(
-    name="boardgamegeek2",
+    name="boardgamegeek",
     version=version["__version__"],
     packages=find_packages(),
     license="BSD",
